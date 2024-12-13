@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Page 2</title>
+		<link rel="stylesheet" href="style2.css" />
+	</head>
+	<body>
+		<div class="mulah-home">
+			<div class="mulah-content">
+				<div class="mulah-logo">
+					<img
+						src="https://mulahpictures.s3-ap-southeast-1.amazonaws.com/mulah_logo.png"
+						alt="mulah logo"
+						class="logo"
+					/>
+				</div>
+				<div class="mulah-welcome">
+					<p class="mulah-register">Registration</p>
+
+					<p class="text-fill-up">Please fill up your details</p>
+				</div>
+				<div class="mulah-input">
+					<div class="mulah-input-name">
+						<label class="labelInput">Name</label>
+						<input id="input-name" type="text" placeholder="Enter Name" />
+						<span class="error-message">*Please insert a name.</span>
+					</div>
+					<div class="mulah-birthday">
+						<label class="labelInput" for="birthday">Birthday</label>
+						<div class="birthday-inputs">
+							<input
+								id="input-day"
+								type="text"
+								id="day"
+								maxlength="2"
+								placeholder="DD"
+							/>
+							<input
+								id="input-month"
+								type="text"
+								id="month"
+								maxlength="2"
+								placeholder="MM"
+							/>
+							<input
+								id="input-year"
+								type="text"
+								id="year"
+								maxlength="4"
+								placeholder="YYYY"
+							/>
+						</div>
+						<span class="error-message">*Please insert your birthday.</span>
+					</div>
+					<div class="mulah-input-email">
+						<label class="labelInput">Email</label>
+						<input id="input-email" type="text" placeholder="Email Address" />
+						<span class="error-message"
+							>*Please insert a valid email address.</span
+						>
+						<div class="checkbox-container">
+							<input id="no-email" type="checkbox" id="no-email" />
+							<label for="no-email">No email address</label>
+						</div>
+					</div>
+				</div>
+				<div class="button-loyalty">
+					<button id="continue-button" type="button">Continue</button>
+				</div>
+			</div>
+			<div class="mulah-footer">
+				<hr class="line" />
+				<h6>
+					Powered by
+					<a href="#">MulahRewards.com</a>
+				</h6>
+			</div>
+		</div>
+
+		<script src="script2.js"></script>
+	</body>
+</html>

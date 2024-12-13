@@ -1,0 +1,85 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+}
+
+.mulah-home {
+	height: 100vh;
+	width: 400px;
+}
+
+.mulah-logo {
+	text-align: center;
+	padding: 70px;
+}
+
+.logo {
+	width: 170px;
+}
+
+.mulah-details {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.mulah-details h2 {
+	color: #646464;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.mulah-details p {
+	color: #646464;
+	font-size: 18px;
+	margin: 10px 0;
+	font-weight: 500;
+}
+
+.button-task {
+	margin-top: 30px;
+}
+
+.button-task > button {
+	background-color: #f37521;
+	border: none;
+	padding: 15px;
+	width: 100%;
+	font-size: 1.1em;
+	color: white;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.button-task > button:hover {
+	background-color: #e3641d;
+	transform: scale(1.05);
+}
+
+hr {
+	margin-top: 50px;
+	background-color: #646464;
+	width: 100%;
+}
+
+.mulah-footer {
+	text-align: center;
+	padding: 20px;
+	font-size: larger;
+}
+
+.mulah-footer > h6 {
+	color: #646464;
+}
+
+.mulah-footer > h6 > a {
+	text-decoration: none;
+	letter-spacing: 1px;
+}
